@@ -1,0 +1,76 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Rust
+target/
+**/*.rs.bk
+Cargo.lock
+
+# Node / JS / TS
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Yarn
+.yarn/
+.pnp.*
+.parcel-cache/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Solana / Anchor / Localnet
+test-ledger/
+ledger/
+.surfpool/
+.anchor/
+.anchor/program-logs/
+solana-test-validator.log
+
+# Build artifacts
+dist/
+build/
+coverage/
+.cache/
+out/
+
+# Turbo / Monorepo
+.turbo/
+
+# Next.js / Vite
+.next/
+.vercel/
+vite.svg
+
+# Logs
+logs/
+*.log
+
+# Mac / Linux metadata
+.AppleDouble
+.LSOverride
+
+# Temporary files
+tmp/
+temp/
+
+# Binary / misc
+*.pid
+*.seed
+*.pid.lock
+
+# generated keypairs
+*.json
+!package.json
+!tsconfig.json
+!Cargo.json

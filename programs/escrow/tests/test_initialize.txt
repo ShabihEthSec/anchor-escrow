@@ -1,0 +1,4 @@
+#[test]
+fn exposes_program_id() {
+    assert_eq!(escrow::id(), escrow::ID);
+}
