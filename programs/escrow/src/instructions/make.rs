@@ -5,12 +5,7 @@ use anchor_spl::{
     token_interface::{transfer_checked, Mint, TokenAccount, TokenInterface, TransferChecked},
 };
 
-// make
 
-// mintA and mintB
-// maker_ata_a
-// escrow and the vault
-// associated token program, token program, system program
 #[derive(Accounts)]
 #[instruction(seeds: u64)]
 pub struct Make<'info> {
